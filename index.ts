@@ -16,13 +16,15 @@ const answer = await inquirer.prompt([
 
 // Conditiona statement
 if (answer.operator === "Addition"){
-    console.log("Your value is: ", answer.firstNumber + answer.secondNumber)
+    console.log("Your Addition value is: ", answer.firstNumber + answer.secondNumber)
 }else if (answer.operator === "Subtraction"){
-    console.log("Your value is: ", answer.firstNumber - answer.secondNumber)
+    console.log("Your Subtraction value is: ", answer.firstNumber - answer.secondNumber)
 }else if (answer.operator === "Multiplication"){
-    console.log("Your value is: ", answer.firstNumber * answer.secondNumber)
+    console.log("Your Multiplication value is: ", answer.firstNumber * answer.secondNumber)
 }if (answer.operator === "Division"){
-    console.log("Your value is: ", answer.firstNumber / answer.secondNumber)
+    console.log("Your Division value is: ", answer.firstNumber / answer.secondNumber)
 }if (answer.operator === "Modulus"){
-    console.log("Your value is: ", answer.firstNumber % answer.secondNumber)
+    console.log("Your Modulus value is: ", answer.firstNumber % answer.secondNumber)
 }
+
+console.log(`THANK YOU FOR USING THE mrx-simple-calculator`)
